@@ -13,122 +13,120 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\SEU-compiler">
+      <UniqueIdentifier>{7e773929-a476-4979-bc13-10a6632b9788}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\Dfa.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\DfaGragh.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\Grammar.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\LALR1.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\lex.yy.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\LexSolver.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\LR1.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\main_function.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\MinimizeDfa.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\Nfa.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\NfaGraph.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\NfaToDfa.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\NormalizeRE.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\Output.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\ParseLex.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\SeuYacc.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\Suffix.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
     <ClCompile Include="SEU-compiler\SuffixToNFA.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SEU-compiler\Dfa.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\DfaGraph.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\Grammar.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\LALR1.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\LexSolver.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\LR1.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\MinimizeDfa.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\Nfa.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\NfaGraph.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\NfaToDfa.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\NormalizeRE.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\Output.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\ParseLex.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\resource.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\SeuYacc.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\Suffix.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
     <ClInclude Include="SEU-compiler\SuffixToNFA.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\SEU-compiler</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="SEU-compiler\README.md">
-      <Filter>源文件</Filter>
-    </None>
   </ItemGroup>
 </Project>

@@ -177,9 +177,6 @@
     <ClInclude Include="SEU-compiler\Suffix.h" />
     <ClInclude Include="SEU-compiler\SuffixToNFA.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="SEU-compiler\README.md" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
