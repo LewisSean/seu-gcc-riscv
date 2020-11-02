@@ -138,6 +138,47 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SEU-compiler\Dfa.cpp" />
+    <ClCompile Include="SEU-compiler\DfaGragh.cpp" />
+    <ClCompile Include="SEU-compiler\Grammar.cpp" />
+    <ClCompile Include="SEU-compiler\LALR1.cpp" />
+    <ClCompile Include="SEU-compiler\lex.yy.c" />
+    <ClCompile Include="SEU-compiler\LexSolver.cpp" />
+    <ClCompile Include="SEU-compiler\LR1.cpp" />
+    <ClCompile Include="SEU-compiler\main_function.cpp" />
+    <ClCompile Include="SEU-compiler\MinimizeDfa.cpp" />
+    <ClCompile Include="SEU-compiler\Nfa.cpp" />
+    <ClCompile Include="SEU-compiler\NfaGraph.cpp" />
+    <ClCompile Include="SEU-compiler\NfaToDfa.cpp" />
+    <ClCompile Include="SEU-compiler\NormalizeRE.cpp" />
+    <ClCompile Include="SEU-compiler\Output.cpp" />
+    <ClCompile Include="SEU-compiler\ParseLex.cpp" />
+    <ClCompile Include="SEU-compiler\SeuYacc.cpp" />
+    <ClCompile Include="SEU-compiler\Suffix.cpp" />
+    <ClCompile Include="SEU-compiler\SuffixToNFA.cpp" />
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SEU-compiler\Dfa.h" />
+    <ClInclude Include="SEU-compiler\DfaGraph.h" />
+    <ClInclude Include="SEU-compiler\Grammar.h" />
+    <ClInclude Include="SEU-compiler\LALR1.h" />
+    <ClInclude Include="SEU-compiler\LexSolver.h" />
+    <ClInclude Include="SEU-compiler\LR1.h" />
+    <ClInclude Include="SEU-compiler\MinimizeDfa.h" />
+    <ClInclude Include="SEU-compiler\Nfa.h" />
+    <ClInclude Include="SEU-compiler\NfaGraph.h" />
+    <ClInclude Include="SEU-compiler\NfaToDfa.h" />
+    <ClInclude Include="SEU-compiler\NormalizeRE.h" />
+    <ClInclude Include="SEU-compiler\Output.h" />
+    <ClInclude Include="SEU-compiler\ParseLex.h" />
+    <ClInclude Include="SEU-compiler\resource.h" />
+    <ClInclude Include="SEU-compiler\SeuYacc.h" />
+    <ClInclude Include="SEU-compiler\Suffix.h" />
+    <ClInclude Include="SEU-compiler\SuffixToNFA.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SEU-compiler\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
